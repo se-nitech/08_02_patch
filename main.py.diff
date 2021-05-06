@@ -1,0 +1,19 @@
+--- main.py	2021-02-22 01:10:42.141550944 +0000
++++ main_new.py	2021-02-22 01:33:02.116927810 +0000
+@@ -5,14 +5,12 @@
+     return z
+ 
+ 
+-def myfunc_2(a):
+-    for i in range(5):
+-        myfunc(a[i], a[i + 1])
+-
+ def myfunc_3(a):
+     for i in range(5):
+         myfunc(a[i], a[i + 1])
+ 
++def myfunc_4(a):
++    z = a[1] + a[2]
+ 
+ def main():
+     a = [1, 2, 3, 4, 5]
